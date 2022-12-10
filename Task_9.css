@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+.main {
+	margin: 15px;
+	padding: 10px;
+	border: 5px solid #76b3d8;
+	width: 300px;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+td {
+	height: 50px;
+	width: 50px;
+	margin: 2px;
+	border: 1px solid #939393;
+	background: linear-gradient(0deg , #cfcfcf, white);
+	text-align: center;
+}
+
+#output {
+	background: none;
+	border: 1px solid Black;
+}
+
+#firstText {
+	float: right;
+}
+
+#secondText {
+	float: right;
+	color: gray;
+}

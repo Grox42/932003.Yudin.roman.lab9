@@ -1,0 +1,51 @@
+<!DOOTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="Task_9.css">
+		<script src="Task_9.js"></script>
+	</head>
+	
+	<body onload="Initialization();">
+		<div class="main">
+			<table>
+				<tr>
+					<td id="output" colspan="5">
+						<div id="firstText"></div>
+						<div id="secondText"></div>
+					</td>
+				</tr>
+				
+				<tr>
+					<td onclick="AddSym('7', this);">7</td>
+					<td onclick="AddSym('8', this);">8</td>
+					<td onclick="AddSym('9', this);">9</td>
+					<td onclick="Operation('/', this);">/</td>
+					<td onclick="Clear(this);">C</td>
+				</tr>
+				
+				<tr>
+					<td onclick="AddSym('4', this);">4</td>
+					<td onclick="AddSym('5', this);">5</td>
+					<td onclick="AddSym('6', this);">6</td>
+					<td onclick="Operation('*', this);">*</td>
+					<td onclick="RemoveLast(this);">&lt;-</td>
+				</tr>
+				
+				<tr>
+					<td onclick="AddSym('1', this);">1</td>
+					<td onclick="AddSym('2', this);">2</td>
+					<td onclick="AddSym('3', this);">3</td>
+					<td onclick="Operation('-', this);">-</td>
+					<td onclick="Calculate(this);" rowspan="2">=</td>
+				</tr>
+				
+				<tr>
+					<td onclick="AddSym('0', this);" colspan="2">0</td>
+					<td onclick="AddSym('.', this);">.</td>
+					<td onclick="Operation('+', this);">+</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
